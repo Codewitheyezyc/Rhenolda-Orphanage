@@ -1,0 +1,301 @@
+.main-header {
+  background-color: #fff;
+}
+
+.header {
+  width: 150rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem 4.8rem;
+}
+
+.info,
+.email-box,
+.main-ul {
+  display: flex;
+  align-items: center;
+  color: #333;
+  font-size: 1.6rem;
+}
+
+.info {
+  gap: 2.4rem;
+}
+
+.email-box {
+  gap: 0.4rem;
+}
+
+.email-box ion-icon {
+  color: #e67700;
+  font-size: 2rem;
+}
+
+.email {
+  font-weight: 600;
+  font-weight: 2rem;
+  color: #e67700;
+}
+
+.logo-container img {
+  width: 9.8rem;
+}
+
+.main-ul {
+  gap: 2.4rem;
+  list-style: none;
+}
+
+.nav-links {
+  color: #333;
+  text-decoration: none;
+}
+
+.donate-btn {
+  padding: 1.2rem 2.4rem;
+  font-size: 1.4rem;
+  background-color: #087f5b;
+  border: none;
+  border-radius: 9px;
+  color: #fff;
+}
+
+.main-hero {
+  background-color: #f8f9fa;
+  padding: 9.6rem 4.8rem;
+}
+
+.hero-img img {
+  width: 100%;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 9.6rem;
+}
+
+.accent-text {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  margin-bottom: -4.8rem;
+  color: #e67700;
+  font-weight: 600;
+}
+
+.hero-heading {
+  font-size: 6.2rem;
+  font-weight: 800;
+}
+
+.hero-text {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.btn-hero-box {
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.btn2 {
+  background-color: #e67700 !important;
+}
+
+.features-container {
+  padding: 2.4rem 0;
+}
+
+.feature-icon {
+  width: 5.2rem;
+}
+
+.features-box {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.feature-heading {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.feature-text {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+
+.about-container {
+  background-color: #e6f2ef;
+}
+
+.about-text {
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+
+.gallery-container {
+  background-color: #fdf1e6;
+  padding: 4.6rem 0;
+}
+
+.gallery-heading {
+  text-align: center;
+}
+
+.gallery {
+  gap: 0 !important;
+}
+
+.services-container {
+  background-color: #087f5b;
+  padding: 4.8rem 0;
+}
+
+.services {
+  gap: 2.4rem !important;
+}
+
+.services-content h2 {
+  color: #fff;
+  text-align: center;
+}
+
+.services-text {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 2.4rem;
+}
+
+.services-box {
+  background-color: #fff;
+  padding: 2.4rem;
+  border-radius: 11px;
+}
+
+.services-name {
+  font-size: 1.8rem;
+  background-color: #e67700;
+  padding: 1.2rem 2.4rem;
+  border-radius: 100px;
+  text-align: center;
+  width: 40%;
+  color: #fff;
+}
+
+/* Footer */
+
+.main-footer {
+  background-color: #e67700;
+}
+
+.footer {
+  padding: 2.4rem 4.8rem;
+}
+
+.footer-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer img {
+  width: 6.2rem;
+  text-align: center;
+}
+
+.footer-ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+  list-style: none;
+  font-size: 1.6rem;
+}
+
+.footer-ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.copy {
+  color: #fff;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.form-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+
+  width: 700px;
+  padding: 4.8rem 6.4rem;
+  background-color: #e6f2ef;
+  border-radius: 11px;
+}
+
+.times {
+  position: absolute;
+  top: 3%;
+  right: 3%;
+  width: 2.4rem;
+}
+
+.form-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-img img {
+  width: 9.8rem;
+  margin-bottom: 3.2rem;
+}
+
+.form-text {
+  text-align: center;
+  color: #e67700;
+  font-size: 3.2rem;
+}
+
+.form div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.form label {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: -1.2rem;
+}
+
+.form div input {
+  padding: 1.6rem 3.2rem;
+  border: none;
+  border-radius: 9px;
+  margin-bottom: 2.4rem;
+  width: 80%;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.4rem;
+}
+.submit button {
+  width: 50%;
+}
